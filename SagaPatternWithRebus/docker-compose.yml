@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  PostgresDB:
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgrespw
+    ports:
+      - 5432:5432
+    volumes:
+      - PostgresDB-volume:/var/lib/postgresql/data
+
+  RabbitMQ:
+    image: rabbitmq:management
+    hostname: RabbitMQ
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - RabbitMQ-volume:/var/lib/rabbitmq
+
+volumes:
+  RabbitMQ-volume:
+  PostgresDB-volume:

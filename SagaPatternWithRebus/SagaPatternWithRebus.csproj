@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Rebus.PostgreSql" Version="8.1.0" />
+    <PackageReference Include="Rebus.RabbitMq" Version="8.0.0" />
+    <PackageReference Include="Rebus.ServiceProvider" Version="9.0.0" />
+  </ItemGroup>
+
 </Project>
