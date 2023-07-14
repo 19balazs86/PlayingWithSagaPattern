@@ -12,6 +12,7 @@ You can find a docker-compose.yml file that will help you quickly set-up Postgre
 - [Saga pattern](https://microservices.io/patterns/data/saga.html) 📓*Microservice architecture*
 - [Implementing the Saga pattern with Rebus and RabbitMQ](https://www.milanjovanovic.tech/blog/implementing-the-saga-pattern-with-rebus-and-rabbitmq) 📓*Milan's newsletter*
 - [Implementing the Saga pattern with Rebus and RabbitMQ](https://youtu.be/dlXCodLxhag) 📽️*18m -* *Milan*
+- [Error handling with compensating transactions](https://youtu.be/FPVzevl6Ri8) 📽️*15m -* *Milan*
 - [Getting started with Rebus](https://code-maze.com/rebus-dotnet) 📓*Code-Maze*
 
 #### Other solutions for the Saga pattern
